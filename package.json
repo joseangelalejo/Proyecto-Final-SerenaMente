@@ -12,12 +12,12 @@
     "test": "ng test",
     "serve:ssr:Proyecto-Final-SerenaMente": "node dist/Proyecto-Final-SerenaMente/server/server.mjs",
     "docker:build": "docker build -t serena-mente:latest .",
-    "docker:up": "docker-compose up -d",
-    "docker:down": "docker-compose down",
-    "docker:logs": "docker-compose logs -f app",
-    "docker:shell": "docker-compose exec app sh",
-    "docker:dev": "docker-compose up",
-    "docker:prod": "NODE_ENV=production docker-compose up -d"
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f app",
+    "docker:shell": "docker compose exec app sh",
+    "docker:dev": "docker compose up",
+    "docker:prod": "NODE_ENV=production docker compose up -d"
   },
   "prettier": {
     "printWidth": 100,
